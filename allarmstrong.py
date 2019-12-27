@@ -3,14 +3,9 @@ n=f=o=0
 c=10
 k=0
 while f<10000000000:
-    i=1
-    d=10
-    s=0
+    i=len(str(f))
     j=0
-    while f%d!=f:
-        i=i+1
-        d=d*c
-        
+    s=0
     #print(i, 'digit number')
     
 

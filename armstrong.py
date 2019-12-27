@@ -1,19 +1,14 @@
 n=f=int(input('Enter Number : '))
-c=10
 k=0
-i=1
-d=10
 s=0
 j=0
-while f%d!=f:
-    i=i+1
-    d=d*c        
+i=len(str(n))
 #print(i, 'digit number')
 
 while j<i:
-    a=n%c
+    a=n%10
     s=s+(a**i)
-    n=int(n/c)
+    n=int(n/10)
     j=j+1      
             
 if s==f:
